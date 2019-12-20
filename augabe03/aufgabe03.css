@@ -1,0 +1,27 @@
+body{
+    background-color: aliceblue;
+    font-family: Arial;
+}
+
+.liste{
+    float: left;
+    text-align: center;
+    color: dimgrey;
+    font-size: larger;
+    border-style: solid;
+    border-width: 3px;
+    margin-right: 2%;
+    width: 30%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.stichpunkte{
+    color: darkgrey;
+    font-size: medium;
+    list-style: none;
+}
+
+.header{
+    color: black;
+}
