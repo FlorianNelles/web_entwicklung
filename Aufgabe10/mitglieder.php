@@ -6,8 +6,14 @@ include ('header.php');
         <h1 class="display-1">Aufgabenplaner</h1>
     </div>
 
-    <div  class="container">
+    <div  class="row">
+        <?php include ('navigation.php'); ?>
+
         <div  class="col">
+            <div class="form-group">
+                <label for="inputUsername">Username:</label>
+                <input type="text" class="form-control" id="inputUsername" placeholder="Username">
+            </div>
             <div class="form-group">
                 <label for="inputEmail">E-Mail-Adresse:</label>
                 <input type="email" class="form-control" id="inputEmail" placeholder="E-Mail-Adresse eingeben">
@@ -20,15 +26,13 @@ include ('header.php');
                 <div class="form-check">
                     <input class="form-check-input" type="checkbox" id="gridCheck">
                     <label class="form-check-label" for="gridCheck">
-                        AGBs und Datenschutzbedingung akzeptieren
+                        Dem Projekt zugeordnet
                     </label>
                 </div>
             </div>
-            <button type="submit" class="btn btn-primary">Einloggen</button>
-        </div>
-        <div class="col">
-            <p>Noch nicht registirert?<a href="augabe.php" > Registrierung</a></p>
-            <p>Da der Login Vorgang technisch noch nicht realisiert wurde:<a href="aufgaben.php" > Überspringen</a></p>
+            <button type="submit" class="btn btn-primary">Speichern</button>
+            <button type="reset" class="btn btn-secondary">Reset</button>
+
         </div>
     </div>
 </div>

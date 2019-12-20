@@ -27,8 +27,8 @@ include ('header.php');
             <button type="submit" class="btn btn-primary">Einloggen</button>
         </div>
         <div class="col">
-            <p>Noch nicht registirert?<a href="augabe.php" > Registrierung</a></p>
-            <p>Da der Login Vorgang technisch noch nicht realisiert wurde:<a href="aufgaben.php" > Überspringen</a></p>
+            <p>Noch nicht registirert?<a href="aufgabe.php" > Registrierung</a></p>
+            <p>Da der Login Vorgang technisch noch nicht realisiert wurde:<a href="index.php?page=2" > Überspringen</a></p>
         </div>
     </div>
 </div>
